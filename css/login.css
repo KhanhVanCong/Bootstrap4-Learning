@@ -30,8 +30,10 @@
 
 .email:focus, .password:focus {
     border: none;
-    background-color: transparent;
+    background-color: rgba(67, 34, 167, 0.4);;
     color: #beb2e6;
+    box-shadow: none;
+    
 }
 
 .text-pink {
