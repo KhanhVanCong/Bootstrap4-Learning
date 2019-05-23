@@ -1,0 +1,97 @@
+* {
+    font-family: Poppins
+}
+
+.login {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg-login.jpg);
+}
+
+.logo p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.login-form {
+    width: 430px;
+}
+
+.email, .password {
+    height: 46px;
+    border-radius: 46px;
+    border: none;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1.5rem;
+    background: rgba(67, 34, 167, 0.4);
+    color: #beb2e6;
+}
+
+.email:focus, .password:focus {
+    border: none;
+    background-color: transparent;
+    color: #beb2e6;
+}
+
+.text-pink {
+    color: #beb2e6 !important;
+    
+}
+
+.forget-password a:hover {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.sign-in {
+    clear: both;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label.remember-me::before, .custom-control-label.remember-me::before {
+    background-color: transparent;
+    border:  1px solid #beb2e6 !important;
+}
+
+.sign-in button {
+    border: 1px solid #beb2e6;
+    color: #beb2e6;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.sign-in button:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+
+.sign-up p{
+    color: #beb2e6;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+.sign-up p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign-up p a:hover {
+    color: #e6e6e6;
+}
+
+::placeholder {
+  color: #beb2e6 !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #beb2e6 !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #beb2e6 !important;
+}

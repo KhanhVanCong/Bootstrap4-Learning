@@ -1,20 +1,53 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">     
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
-<body>
-    
-    <div class="container">
-        
-    </div>
 
-    <script src="../js/bootstrap.min.js"></script>
+<body>
+
+    <section class="login">
+        <div class="container d-flex flex-column align-items-center h-100">
+            <div class="logo text-center mt-5">
+                <img src="../img/logo-mini-2-md.png" alt="logo">
+                <p class="text-white py-5">Sign In To Admin</p>
+            </div>
+            <div class="login-form text-center">
+                <form action="">
+                    <input class="form-control mb-3 email" type="email" placeholder="Email">
+                    <input class="form-control mb-3 password" type="password" placeholder="Password">
+                    <div class="mx-2 mb-5">
+                        <div class="custom-control custom-checkbox float-left text-pink">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label remember-me" for="customCheck1">Remember me</label>
+                        </div>
+                        <div class="float-right forget-password">
+                            <a href="#" class="text-pink">Forget Password ?</a>
+                        </div>
+                    </div>
+                    <div class="sign-in">
+                        <button class="py-2 px-5 mt-4">Sign In</button>
+                    </div>
+                </form>
+                <div class="sign-up mt-5">
+                    <p>
+                        Don't have an account yet ? 
+                        <span><a href="#">&nbsp;&nbsp;Sign Up</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <script src="../js/popper.min.js"></script>
     <script src="../js/jquery-3.2.1.slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
-</html>
 
+</html>
